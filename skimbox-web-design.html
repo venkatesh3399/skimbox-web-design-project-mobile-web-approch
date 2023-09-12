@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .header-part {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid black;
+            padding-bottom: 15px;
+            font-family: "Roboto";
+        }
+
+        .header-left {
+            display: flex;
+        }
+
+        .web-image {
+            width: 120px;
+            margin-right: 15px;
+        }
+
+        .arrow-mark {
+            transform: rotate(90deg);
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        .header-right {
+            display: flex;
+        }
+
+        .header-button {
+            border-radius: 25px;
+            background: black;
+            color: white;
+            margin-left: 15px;
+        }
+
+        .body-part {
+            background-image: linear-gradient(to right, #ffffff, #c0fcf4);
+            height: 80vh;
+            padding-top: 25px;
+            font-family: "Roboto";
+        }
+
+        .body-button {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+
+        .body-inside-button {
+            background: black;
+            color: white;
+            border-radius: 30px;
+            margin-right: 15px;
+        }
+
+        .boxes {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .each-box {
+            background: white;
+            border: 1px solid black;
+            margin: 10px;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .amount-container {
+            display: flex;
+        }
+
+        .amount {
+            margin-top: 0px;
+            font-size: 45px;
+        }
+
+        .amount-tag {
+            font-size: 12px;
+            margin-top: 20px;
+            font-weight: 500;
+        }
+
+        .middle-lines {
+            background: #daf7e8;
+            border-top: 1px solid green;
+            border-bottom: 1px solid green;
+            text-align: center;
+        }
+
+        .points {
+            display: flex;
+        }
+
+        .button {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .try-free-button {
+            background: black;
+            color: white;
+            border-radius: 35px;
+            width: 70%;
+            padding: 15px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header-part">
+        <div class="header-left">
+            <img src="https://res.cloudinary.com/dde4zcc6f/image/upload/v1694452356/tnwptma8kcs0fopfwir3.png" class="web-image" />
+            <h3>Solutions <span class="arrow-mark">&gt;</span></h3>
+            <h3 style="margin-right: 10px">Pricing</h3>
+            <h3>Resources <span class="arrow-mark">&gt;</span></h3>
+        </div>
+        <div class="header-right">
+            <h3>Log in</h3>
+            <button class="header-button">Start free trial</button>
+        </div>
+    </div>
+    <div class="body-part">
+        <div class="body-button">
+            <button class="body-inside-button">Pay Monthly</button>
+            <h3>Pay Yearly(25%)</h3>
+        </div>
+        <div class="boxes">
+            <div class="each-box" style="border: 2px solid green">
+                <h3>Basic</h3>
+                <h4 style="text-align: left;">FOR INDIVIDUALS & SMALL BUSINESSES</h4>
+                <p style="text-align: left;">Everything you need to create your store, ship products, and process payments</p>
+                <div class="amount-container">
+                    <h1 class="amount">&#8377;1,994</h1>
+                    <p class="amount-tag">INR <br /> /mo</p>
+                </div>
+                <div class="middle-lines">
+                    <h3 class="middle">Get your first 3 months for &#8377;20/mo</h3>
+                </div>
+                <div>
+                    <h2>What's included on Basic</h2>
+                    <div class="points">
+                        <h3 style="color: green; margin-right: 15px">&#10004;</h3>
+                        <h3>Basic reports</h3>
+                    </div>
+                    <div class="points">
+                        <h3 style="color: green; margin-right: 15px">&#10004;</h3>
+                        <h3>Up to 1,000 inventory locations</h3>
+                    </div>
+                    <div class="points">
+                        <h3 style="color: green; margin-right: 15px">&#10004;</h3>
+                        <h3>2 staff accounts</h3>
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="try-free-button">Try for free</button>
+                </div>
+            </div>
+            <div class="each-box">
+                <h3>Shopify</h3>
+                <h4 style="text-align: left;">FOR SMALL BUSINESSES</h4>
+                <p style="text-align: left;">Level up your business with professional repoting and more staff accounts</p>
+                <div class="amount-container">
+                    <h1 class="amount">&#8377;7,447</h1>
+                    <p class="amount-tag">INR <br /> /mo</p>
+                </div>
+                <div class="middle-lines">
+                    <h3 class="middle">Get your first 3 months for &#8377;20/mo</h3>
+                </div>
+                <div>
+                    <h2>What's included on Shopify</h2>
+                    <div class="points">
+                        <h3 style="color: green; margin-right: 15px">&#10004;</h3>
+                        <h3>Professional reports</h3>
+                    </div>
+                    <div class="points">
+                        <h3 style="color: green; margin-right: 15px">&#10004;</h3>
+                        <h3>Up to 1,000 inventory locations</h3>
+                    </div>
+                    <div class="points">
+                        <h3 style="color: green; margin-right: 15px">&#10004;</h3>
+                        <h3>5 staff accounts</h3>
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="try-free-button">Try for free</button>
+                </div>
+            </div>
+            <div class="each-box">
+                <h3>Advanced</h3>
+                <h4 style="text-align: left;">FOR MEDIUM TO LARGE BUSINESSES</h4>
+                <p style="text-align: left;">Get the best of sohpify with customer reporting and our lowest trasaction fees</p>
+                <div class="amount-container">
+                    <h1 class="amount">&#8377;30,164</h1>
+                    <p class="amount-tag">INR <br /> /mo</p>
+                </div>
+                <div class="middle-lines">
+                    <h3 class="middle">Get your first 3 months for &#8377;20/mo</h3>
+                </div>
+                <div>
+                    <h2>What's included on Advanced</h2>
+                    <div class="points">
+                        <h3 style="color: green; margin-right: 15px">&#10004;</h3>
+                        <h3>Customer report builder</h3>
+                    </div>
+                    <div class="points">
+                        <h3 style="color: green; margin-right: 15px">&#10004;</h3>
+                        <h3>Up to 1,000 inventory locations</h3>
+                    </div>
+                    <div class="points">
+                        <h3 style="color: green; margin-right: 15px">&#10004;</h3>
+                        <h3>15 staff accounts</h3>
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="try-free-button">Try for free</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
