@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <style>
+    /* @media (min-width:768px) {
+    .basic-tab-container {
+        display: none;
+    }
+} */
+  .bg-container {
+    font-family: "Roboto";
+    background-size: cover;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-sizing {
+    width: 120px;
+    margin-top: 10px;
+}
+
+.header-line {
+    font-size: 20px;
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+
+i {
+    padding-left: 20px;
+}
+
+.tabs-container {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1.5px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.green-line {
+    border-top: 2px solid green;
+}
+
+.line {
+    border: 1px solid gray;
+}
+
+.amount-container {
+    display: flex;
+}
+
+.amount {
+    margin-top: 0px;
+    font-size: 45px;
+    margin-left: 20px;
+}
+
+.amount-tag {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.middle-lines {
+    background: #daf7e8;
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+    text-align: center;
+}
+
+.points {
+    display: flex;
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background: black;
+    color: white;
+    border-radius: 35px;
+    width: 70%;
+    padding: 15px 0px;
+}
+  </style>
+</head>
+
+<body>
+    <div class="basic-tab-container">
+        <div class="bg-container">
+            <div class="header-container">
+                <div>
+                    <img src="https://res.cloudinary.com/dde4zcc6f/image/upload/v1694452356/tnwptma8kcs0fopfwir3.png" class="img-sizing" />
+                </div>
+                <div>
+                    <p class="header-line">start free trial<i class="fa-solid fa-bars"></i></p>
+                </div>
+            </div>
+            <div class="tabs-container">
+                <div class="green-line">
+                    <h3>Basic</h3>
+                </div>
+                <hr />
+                <h3>Shopify</h3>
+                <hr class="line" />
+                <h3>Advanced</h3>
+            </div>
+            <div class="amount-container">
+                <h1 class="amount">&#8377;1,994</h1>
+                <p class="amount-tag">INR <br /> /mo</p>
+            </div>
+            <div class="middle-lines">
+                <h3 class="middle">Get your first 3 months for &#8377;20/mo</h3>
+            </div>
+            <div>
+                <h2>What's included on Basic</h2>
+                <div class="points">
+                    <h3 style="color: green; margin-right: 15px">&#10004;</h3>
+                    <h3>Basic reports</h3>
+                </div>
+                <div class="points">
+                    <h3 style="color: green; margin-right: 15px">&#10004;</h3>
+                    <h3>Up to 1,000 inventory locations</h3>
+                </div>
+                <div class="points">
+                    <h3 style="color: green; margin-right: 15px">&#10004;</h3>
+                    <h3>2 staff accounts</h3>
+                </div>
+            </div>
+            <div class="button">
+                <button>Try for free</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
